@@ -51,6 +51,11 @@ h1 {
   font-size: 24px;
   font-weight: 800;
   margin: 5px 8px 16px 8px;
+  cursor: pointer;
+}
+
+h1:hover {
+  background-color: transparent;
 }
 
 #sentence {
@@ -63,7 +68,23 @@ h1 {
   justify-content: center;
   align-items: center;
   font-weight: 800;
-  width: auto;
+  padding-left: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.profile-pic img {
+  width: 32px;
+}
+
+#name {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+#name:hover {
+  background-color: transparent;
 }
 
 .card {
@@ -82,7 +103,7 @@ h1 {
 .attribution {
   font-size: 11px;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
