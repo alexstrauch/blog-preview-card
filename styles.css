@@ -15,7 +15,7 @@ Weights: 500, 800 */
 
 body {
   background-color: hsl(47, 88%, 63%);
-  font-family: "Figtree";
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,7 +24,7 @@ body {
   width: auto;
 }
 
-#Logo {
+.logo {
   border-radius: 10px;
   display: block;
   margin: auto;
@@ -59,7 +59,7 @@ h1:hover {
   color: deepskyblue;
 }
 
-#sentence {
+.sentence {
   margin: 5px 8px 16px 8px;
   line-height: 1.4rem;
 }
@@ -79,12 +79,12 @@ h1:hover {
   width: 32px;
 }
 
-#name {
+.name {
   padding-left: 10px;
   cursor: pointer;
 }
 
-#name:hover {
+.name:hover {
   background-color: transparent;
   color: deepskyblue;
 }
